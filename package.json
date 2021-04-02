@@ -1,0 +1,13 @@
+{
+  "name": "memories_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Paul Jim <casimeropj@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"cd client && yarn start\" \"cd server && yarn start\""
+  },
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
